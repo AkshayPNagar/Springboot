@@ -1,0 +1,55 @@
+package com.school.School.Service.Faculty;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.school.School.Dao.Faculty.Teaching_Faculty_Dao;
+import com.school.School.Entity.Faculty.Subjects;
+import com.school.School.Entity.Faculty.Teaching_Faculty;
+
+@Service
+public class Faculty_ser {
+	
+	@Autowired
+	Teaching_Faculty_Dao td;
+
+	public List<String> allSubjects ()
+	{
+		ArrayList<String> sub = new ArrayList<>();
+		ArrayList<Teaching_Faculty>allSubjects =td.facultySubjects();
+		
+		for(Teaching_Faculty tf : allSubjects)
+		{
+			List<Subjects> subList=tf.getSubNames();
+			for(Subjects subjects : subList)
+			{
+				sub.add(subjects.getSubName());
+			}
+		}
+			
+	
+	return sub;
+	}
+	
+	
+	List<Subjects> subForFaculty ()
+	{
+		return null;
+	}
+
+String mostExperienceFaculty()
+
+	{
+		ArrayList<>
+	return null;
+
+	}
+	
+String facNameFromID()
+	{
+	return null;
+	}
+
+	
+}

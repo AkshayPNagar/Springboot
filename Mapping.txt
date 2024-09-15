@@ -1,0 +1,27 @@
+GetMapping - is used to map incoming request form browser. OR (If incoming request type is get so we use getmapping)
+
+
+
+PostMapping - if we pass unlimitated data then we use postmapping it transfer data from body.
+    		We can transfer data from url upto 64 kb and we can only transfer text data from url.
+
+
+{ } - This is placeholder.
+
+@Pathvariable- it takes or hold single value
+@RequestBody - it takes form or we say in the body format. eg. Admission form (all information receive in json format)
+
+
+Questions
+
+1) how to get parameterized data from url
+=> by using Placeholder{} and @Pathvariable
+	eg. @GetMapping("/product/{name}")
+		void string getproduct(@PathVaribale String name)
+		{
+			return name;
+		}
+
+2) how to get json(object )data from request
+=> by using @PostMapping and @RequestBody
+ 

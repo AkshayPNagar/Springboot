@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\DELL\Downloads\TrackMyClass"/>
+			<item value="C:\Users\DELL\Downloads\Department"/>
+			<item value="C:\Users\DELL\Downloads\RestAPI"/>
+			<item value="G:\TKA\Advanced_Java\SpringBoot\SpringMapping"/>
+			<item value="G:\TKA\Advanced_Java\SpringBoot\Integration"/>
+			<item value="G:\TKA\Advanced_Java\SpringBoot\School"/>
+			<item value="G:\TKA\Advanced_Java\SpringBoot\Employee"/>
+			<item value="G:\TKA\Advanced_Java\SpringBoot\firstSpringBoot"/>
+			<item value="C:\Users\DELL\Downloads\firstSpringBoot"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

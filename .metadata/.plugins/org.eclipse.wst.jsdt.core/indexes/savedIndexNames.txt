@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+G:\TKA\Advanced_Java\SpringBoot\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2028565539.index
